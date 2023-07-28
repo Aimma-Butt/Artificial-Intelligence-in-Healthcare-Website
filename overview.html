@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="mystyle.css">
+        <link rel="icon" type="image/gif" href="title2.png">
+        <style>
+            .ssapn1{
+            column-span: 1;
+        }
+            p{
+            font-size:18px;
+        }
+            a{
+            font-size: 18px;
+        }
+            .sidepanel{
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            height: 400px;
+            top: 0;
+            left: 0;
+            background-color: #ebdde4;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 30px;
+            border: 3px solid black;
+        }
+        
+        </style>
+    </head>
+    
+
+    <body>
+        <div class="ssapn1" id="navbar">
+            <span><img src="logo3.png" alt="Logo"style="float:left;" width="100px" height="70px"></span>
+            <nav id="menu" style="text-align: right;"> <br>
+                <span> <a style="color:rgb(37, 35, 35); font-size: 20px;" href="overview.html">Home</a> &nbsp;</span> 
+                <span> <a style="color:rgb(37, 35, 35); font-size: 20px;" href="this one.html">Register Now</a> &nbsp;</span> 
+                <span> <a style="color:rgb(37, 35, 35); font-size: 20px;" href="this one.html">About Us</a> &nbsp;</span> 
+                <br><br><br><br>
+            </nav>
+        </div>
+        <script>
+            var navbar = document.getElementById("navbar");
+            var navbar = document.getElementById("menu");
+            window.onscroll = function()
+            {
+                navbar.classList.add("sticky");
+            }
+        </script>
+
+        <header>
+            <br>
+            <span>
+                <div class="z1">
+                    <div>
+                        <h1 style="text-align:left; text-transform: uppercase;">
+                            &nbsp;&nbsp;
+                            Artificial Intelligence 
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in 
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Healthcare
+                            <br>
+                        </h1>
+                    </div>
+                    <div class="links">
+                        <nav>
+                            <div>
+                            <a style="border-block:5px; border: 3px solid rgb(241, 50, 50); background-color: rgb(241, 50, 50); display: block; text-decoration: none; font-size: 25px; color:white;"  id="pg1" name="pg1" href="#work" onmouseover=mouseEnter() onmouseleave=mouseleave()> AI Healthcare <br> Working  </a> &nbsp;&nbsp;&nbsp;&nbsp;
+                            </div>
+                            <div>
+                            <a style="border-block: -5px; border: 3px solid rgb(66, 162, 241); background-color: rgb(66, 162, 241); display: block; text-decoration: none; font-size: 25px; color:white;"  id="pg2" name="pg2" href="sectors.html"> AI Healthcare <br> Sectors  </a> &nbsp;&nbsp;&nbsp;&nbsp;
+                            </div>
+                            <div>
+                            <a style="border-block: -5px; border: 3px solid rgb(240, 114, 30); background-color: rgb(240, 114, 30);  display: block; text-decoration: none; font-size: 25px; color:white;"  id="pg3" name="pg3" href="ethics.html">  AI Healthcare <br> Ethics  </a> &nbsp;&nbsp;&nbsp;&nbsp;
+                            </div>
+                            <div>
+                            <a style="border-block: -5px; border: 3px solid rgb(223, 87, 223); background-color: rgb(223, 87, 223);  display: block; text-decoration: none; font-size: 25px; color:white;"  id="pg4" name="pg4" href="future.html">  AI Healthcare <br> Future  </a> &nbsp;&nbsp;&nbsp;&nbsp;
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </span>
+    <br>
+
+    </header> 
+
+        <h1 id="work" name="work" style="border: 2px solid rgb(241, 50, 50); background-color:rgb(241, 50, 50);">HOW DOES AI WORK?</h1>
+
+        <div class="body-class" style="background-color: white;">
+              
+            <div>
+                <div class="newsspan">
+                        <p>
+                            The emergence of artificial intelligence (AI) in healthcare has been groundbreaking, reshaping the way we diagnose, treat and monitor patients. 
+                            This technology is <a href="https://www.oxfordlearnersdictionaries.com/definition/english/drastically#:~:text=drastically-,adverb,or%20violent%20effect%20on%20something">drastically</a> improving healthcare research and outcomes by producing more accurate diagnoses and enabling more personalized treatments. 
+                            AI in healthcare’s ability to analyze vast amounts of clinical documentation quickly helps medical professionals identify disease markers and trends that would otherwise be overlooked. 
+                            <br>
+                            <em><strong>The <a href="https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/artificial-intelligence-applications">potential applications of AI</a>
+                             and healthcare are broad and far-reaching, from scanning <a href="https://medlineplus.gov/ency/article/007451.htm">radiological images</a> for early detection to predicting outcomes from electronic health records. By leveraging artificial intelligence in hospital settings and clinics, healthcare systems can become smarter, faster, and more efficient in providing 
+                            care to millions of people worldwide.</em></strong>
+                            <br> 
+                            Artificial intelligence in healthcare is truly turning out to be the future – transforming how patients receive quality care while mitigating costs for providers and improving health outcomes.
+                            <br> 
+                        </p>
+                </div>
+            </div>
+            <div>
+                <br><br><br>
+                
+
+                <div id="mySidepanel" class="sidepanel" >
+                    <a href="javascript:void(0)" class="closebtn" style="float:right;" onclick="closeNav()">X </a><br><br>
+                    <h2><b><u>AI TUTORIALS</u></b></h2>
+                    <a href="https://www.javatpoint.com/artificial-intelligence-in-healthcare">JavaPoint</a><br><br>
+                    <a href="https://towardsdatascience.com/getting-started-in-medical-ai-93737bea5575">DataScience</a><br><br>
+                    <a href="https://www.tutorialspoint.com/artificial_intelligence/index.htm">TutorialsPoint</a><br><br>
+                    <figure><img src="tt1.jpg" alt="image" style=" border: none;" height="140px" width="180px"> </figure>
+                  </div>
+                  
+ 
+                    <button class="openbtn" onclick="openNav()" style="background-color: white; border: none; float:right;"><b>
+                        <center>
+                            <figure><img src="tt.jpg" alt="image" style=" border: none;" height="80px" width="100px"> </figure>
+                        </center>
+                        <figcaption> <!--width:500px;☰  height: 100px;--> Click here for more AI Tutorials</figcaption>
+                    </b></button>
+
+                  
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidepanel").style.width = "250px";
+                        }
+
+                        function closeNav() {
+                        document.getElementById("mySidepanel").style.width = "0";
+                        }
+                </script>
+                                
+                <center><img src="c.gif" width="600px;" height="300px;"></center>
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="ssapn12">
+                <span>
+                    <img src="12.jpg" alt="Robot" style="float:left; width:25%; height:200px;">
+                </span> 
+                <span>
+                    <h2 style="color: azure;">Contact Us</h2>
+                    <p style="line-height: 0%;" name="register" id="register"> <a  style="color: azure; text-decoration: none;" href=""> Sign up for Updates </a></p> 
+                    <p><br><a  style="color: azure; text-decoration: none;" href=""> 111-222-3334</a> <br> 
+                        <a style="color: azure; text-decoration: none;" href="mailto:20-22411-038@se.fjwu.edu.pk"> Gmail </a> <br>
+                     </p>
+                     <p style="color: azure;">
+                        Secret Science,<br>Powered By Aimma Butt.<br>All Rights Reserved.
+                     </p>   
+                </span>
+            </div>
+        </footer>
+    
+                
+
+        <script>
+            function mouseEnter() {
+                document.getElementById("pg1").style.fontSize = "30px";
+            }
+            function mouseleave() {
+                document.getElementById("pg1").style.fontSize = "25px"; 
+            }
+        </script>
+
+
+    </body>
+</html>
